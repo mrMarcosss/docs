@@ -1,1 +1,1 @@
-![enter image description here](https://github.com/mrMarcosss/docs/two-scoops/cbv_vs_fbv.png)
+![enter image description here](https://raw.githubusercontent.com/mrMarcosss/docs/master/docs/two-scoops/cbv_vs_fbv.png)
