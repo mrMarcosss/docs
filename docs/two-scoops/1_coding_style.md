@@ -1,5 +1,5 @@
- ## Readable code:
- Make your code as readable as possible:
+ ## Readable code
+ `Make your code as readable as possible`:
  - Avoid abbreviating variable names.
  - Write out your function argument names.
  - Document your classes and methods.
