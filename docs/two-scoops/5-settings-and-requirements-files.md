@@ -88,7 +88,8 @@ django-debug-toolbar==1.5
 ```
 ----
 ## Path
-==Using **Pathlib** to discover project root (_since Python 3.4_)==
+`Using **Pathlib** to discover project root (_since Python 3.4_)`
+
 ```python
 # At the top of settings/base.py
 
@@ -105,7 +106,9 @@ TEMPLATES = [
 	},
 ]
 ```
-==Using **os.path** to discover project root==
+
+`Using **os.path** to discover project root`
+
 ```python
 # At the top of settings/base.py
 
