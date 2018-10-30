@@ -6,6 +6,7 @@
 
   * [1. Coding Style](two-scoops/1-coding-style.md)
   * [2. The Optimal Django Environment](two-scoops/2-the-optimal-django-environment.md)
+  * [3. How to Lay Out Django Projects](two-scoops/3-how-to-lay-out-django-projects.md)
 
 * Guide
 
