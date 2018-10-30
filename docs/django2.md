@@ -1,5 +1,6 @@
-# When QuerySets are evaluated
+# Django 2 by example
 
+## When QuerySets are evaluated
 You can concatenate as many filters as you like to a QuerySet, and you will not hit the database until the QuerySet is evaluated. QuerySets are only evaluated in the following cases:
 
 -  The first time you iterate over them
@@ -23,7 +24,7 @@ class CommentAdmin(admin.ModelAdmin):
 	list_display = ('name', 'email', 'post', 'created')
 ```
 ---------
-**Read this Django docs:**
+## Read this Django docs:
 * [settings](https://docs.djangoproject.com/en/2.0/ref/settings/)
 * [urls](https://docs.djangoproject.com/en/2.0/topics/http/urls/)
 * [django postgres](https://docs.djangoproject.com/en/2.0/ref/contrib/postgres/)
@@ -36,7 +37,7 @@ class CommentAdmin(admin.ModelAdmin):
 * [fixture-loading](https://docs.djangoproject.com/en/2.0/topics/testing/tools/#fixture-loading)
 * [custom-model-fields](https://docs.djangoproject.com/en/2.0/howto/custom-model-fields/)
 ---
-**Must read:**
+## Must read:
 * [Денормализация wiki](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F)
 * [Денормализация БД. Зачем? Когда? Как?](https://habr.com/post/64524/)
 * [Зачем нужна денормализация баз данных, и когда ее использовать](https://habr.com/company/latera/blog/281262/)
@@ -118,11 +119,16 @@ class ProductAdmin(admin.ModelAdmin):
 ```
 ----
 ### How Django determines the current language
-1. If you are using `i18_patterns`, that is, you use translated URL patterns, it looks for a language prefix in the requested URL to determine the current language. 
-2. If no language prefix is found, it looks for an existing `LANGUAGE_SESSION_KEY` in the current user's session. 
-3. If the language is not set in the session, it looks for an existing cookie with the current language. A custom name for this cookie can be provided in the `LANGUAGE_COOKIE_NAME` setting. By default, the name for this cookie is `django_language`. 
-4. If no cookie is found, it looks for the `Accept-Language` HTTP header of the request. 
+1. If you are using `i18_patterns`, that is, you use translated URL patterns, it looks for a language prefix in the requested URL to determine the current language.
+
+2. If no language prefix is found, it looks for an existing `LANGUAGE_SESSION_KEY` in the current user's session.
+
+3. If the language is not set in the session, it looks for an existing cookie with the current language. A custom name for this cookie can be provided in the `LANGUAGE_COOKIE_NAME` setting. By default, the name for this cookie is `django_language`.
+
+4. If no cookie is found, it looks for the `Accept-Language` HTTP header of the request.
+
 5. If the Accept-Language header does not specify a language, Django uses the language defined in the `LANGUAGE_CODE `setting.
+
 > By default, Django will use the language defined in the **LANGUAGE_CODE** setting unless you are using **LocaleMiddleware**. The process described here **only** applies when using this middleware.
 -----
 
