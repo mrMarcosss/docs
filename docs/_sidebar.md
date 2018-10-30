@@ -5,7 +5,7 @@
 * Two scoops of django
 
   * [1. Coding Style](two-scoops/1-coding-style.md)
-  * [2. The Optimal Django Environment](two-scoops/2-the-optimal-django-nnvironment.md)
+  * [2. The Optimal Django Environment](two-scoops/2-the-optimal-django-environment.md)
 
 * Guide
 
