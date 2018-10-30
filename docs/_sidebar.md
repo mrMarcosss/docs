@@ -2,9 +2,9 @@
 
   * [Notes](django2.md)
 
-* Customization
+* Two scoops of django
 
-  * [Configuration](configuration.md)
+  * [1. Coding Style](two-scoops/1_coding_style.md)
   * [Themes](themes.md)
   * [List of Plugins](plugins.md)
   * [Write a Plugin](write-a-plugin.md)
