@@ -1,21 +1,11 @@
-* Books
-
-  * [Django 2 by example](django2.md)
-  * [Two scoops of django](two-scoops/1_coding_style.md)
-    * [1. Coding Style](two-scoops/1_coding_style.md)
-
 * Django 2 by example
 
   * [Notes](django2.md)
 
 * Two scoops of django
 
-  * [1. Coding Style](two-scoops/1_coding_style.md)
-  * [Themes](themes.md)
-  * [List of Plugins](plugins.md)
-  * [Write a Plugin](write-a-plugin.md)
-  * [Markdown configuration](markdown.md)
-  * [Language highlighting](language-highlight.md)
+  * [1. Coding Style](two-scoops/1-coding-style.md)
+  * [2. The Optimal Django Environment](two-scoops/2-the-optimal-django-nnvironment.md)
 
 * Guide
 
