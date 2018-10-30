@@ -1,4 +1,5 @@
- ## Make your code as readable as possible:
+ ## Readable code:
+ Make your code as readable as possible:
  - Avoid abbreviating variable names.
  - Write out your function argument names.
  - Document your classes and methods.
@@ -46,5 +47,6 @@ from .forms import WaffleConeForm
 > Use Underscores `('_')` in **Template Block and URL Names** Rather Than Dashes `('-')`
 
 [HTML Style guide](http://codeguide.co/)
+
 [Stylelint is a coding style formatter for CSS.](https://stylelint.io/)
 
