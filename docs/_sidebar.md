@@ -1,3 +1,9 @@
+* Books
+
+  * [Django 2 by example](django2.md)
+  * [Two scoops of django](two-scoops/1_coding_style.md)
+    * [1. Coding Style](two-scoops/1_coding_style.md)
+
 * Django 2 by example
 
   * [Notes](django2.md)
