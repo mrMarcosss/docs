@@ -24,7 +24,7 @@ class CommentAdmin(admin.ModelAdmin):
 	list_display = ('name', 'email', 'post', 'created')
 ```
 ---------
-## Read this Django docs:
+## Read this Django docs
 * [settings](https://docs.djangoproject.com/en/2.0/ref/settings/)
 * [urls](https://docs.djangoproject.com/en/2.0/topics/http/urls/)
 * [django postgres](https://docs.djangoproject.com/en/2.0/ref/contrib/postgres/)
@@ -37,7 +37,7 @@ class CommentAdmin(admin.ModelAdmin):
 * [fixture-loading](https://docs.djangoproject.com/en/2.0/topics/testing/tools/#fixture-loading)
 * [custom-model-fields](https://docs.djangoproject.com/en/2.0/howto/custom-model-fields/)
 ---
-## Must read:
+## Must read
 * [Денормализация wiki](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F)
 * [Денормализация БД. Зачем? Когда? Как?](https://habr.com/post/64524/)
 * [Зачем нужна денормализация баз данных, и когда ее использовать](https://habr.com/company/latera/blog/281262/)
@@ -130,6 +130,7 @@ class ProductAdmin(admin.ModelAdmin):
 5. If the Accept-Language header does not specify a language, Django uses the language defined in the `LANGUAGE_CODE `setting.
 
 > By default, Django will use the language defined in the **LANGUAGE_CODE** setting unless you are using **LocaleMiddleware**. The process described here **only** applies when using this middleware.
+
 -----
 
 Schedule our management command so that the server runs it every day at `8 a.m.` If you are using a `UNIX-based` system such as `Linux` or `macOS X`, open the shell and run `crontab -e` to edit your crontab. Add the following line to it:
