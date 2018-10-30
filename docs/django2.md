@@ -118,7 +118,7 @@ class ProductAdmin(admin.ModelAdmin):
     list_editable = ['price', 'available'] # edit item from list page
 ```
 ----
-### How Django determines the current language
+## How Django determines the current language
 1. If you are using `i18_patterns`, that is, you use translated URL patterns, it looks for a language prefix in the requested URL to determine the current language.
 
 2. If no language prefix is found, it looks for an existing `LANGUAGE_SESSION_KEY` in the current user's session.
