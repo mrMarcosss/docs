@@ -1,0 +1,1 @@
+![enter image description here](https://github.com/mrMarcosss/docs/two-scoops/cbv_vs_fbv.png)

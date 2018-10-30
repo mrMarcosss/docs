@@ -11,6 +11,9 @@
   * [5. Settings and Requirements Files](two-scoops/5-settings-and-requirements-files.md)
   * [6. Model Best Practices](two-scoops/6-model-best-practices.md)
   * [7. Queries and the Database Layer](two-scoops/7-queries-and-the-database-layer.md)
+  * [8. Function and Class-Based Views](two-scoops/8-function-and-class-based-views.md)
+  * [9. Best Practices for Function-Based Views](two-scoops/9-best-practices-for-function-based-views.md)
+  * [10. Best Practices for Class-Based Views](two-scoops/10-best-practices-for-class-based-views.md)
 
 * Guide
 
